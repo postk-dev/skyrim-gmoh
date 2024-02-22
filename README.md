@@ -8,50 +8,47 @@ A Wabbajak modlist for Skyrim SE
     Skyrim modding, I recommend starting with an official Wabbajak modlist (https://www.wabbajack.org).
 </p>
 <p>
-    This list has 3 goals:
+    This list has two goals:
 </p>
 <ol>
     <li>Completely overhaul Skyrim. This includes, but is not limited to, the landscape, UI and core gameplay systems.
     </li>
-    <li>Give your Dragonborn character more roleplay choices.</li>
-    <li>Build a comprehensive modlist that players can use to start modding Skyrim to their tastes.</li>
+    <li>Massively expand on the roleplay options available to the Dragonborn character.</li>
 </ol>
-<p>
-    Gameplay balance is a far-flung goal of this list. Curently, you will likely feel slightly underpowered at lower
-    levels and overpowered at higher levels.
-</p>
 
 # Requirements
 
 <ul>
-    <li>The Steam version of Skyrim: Special Edition. Only English is supported.</li>
+    <li>The Steam version of Skyrim: Special Edition. <strong>English is currently the only supported language.</strong>
+    </li>
     <li><a href="https://store.steampowered.com/app/1746860/The_Elder_Scrolls_V_Skyrim_Anniversary_Upgrade">The
             Anniversary Edition content.</a></li>
     <li><a href="https://aka.ms/vs/17/release/vc_redist.x64.exe">C++ Redistributable for VS2019</a></li>
-    <li>1 Terabyte of fast storage (preferably SSD). This can be distributed across 2 drives.</li>
-    <li>For a stable experience, at least 16GB of RAM and 12GB of VRAM.</li>
+    <li>1 Terabyte of fast storage (preferably SSD). Some of this can be distributed across 2 drives.</li>
+    <li>For a stable experience, at least 16GB of RAM and 8-16GB of VRAM.</li>
 </ul>
 
 # Disclaimer
 
 <ul>
-    <li>The list is in beta. You may experience breaking issues during installation or during gameplay.</li>
-    <li>Please plan for the installation process to take significant time and bandwidth.</li>
-    <li>This is not a performance friendly list. Expect framerate drops in busy areas.</li>
-    <li><strong>Please do not report bugs/issues to individual mod authors</strong>. Issues must be reported through the
+    <li>The list is in beta. You may experience breaking issues during installation or gameplay.</li>
+    <li><strong style="font-size: x-large; background-color:crimson;">Please do not report any bugs/issues to individual mod authors</strong>. Issues must be reported through the
         support channels
         provided. More info <a href="#reporting-a-bug--ctd">here</a>.</li>
+    <li>Please plan for the installation process to take significant time (several hours) and bandwidth (~500GB).</li>
+    <li>If you <strong>do not</strong> have a Nexus premium account, the installer will require you to click on a
+        download link for <strong>every mod hosted on Nexus (~2700)</strong>.</li>
+    <li><strong>This is not a performance friendly list.</strong> Expect longer load times and framerate drops in
+        visually busy areas.</li>
 </ul>
 
-# The List
-Find the full list on <a href="#">Load Order Library.</a>
-<h3>At a High Level</h3>
+# Modlist Breakdown
 <details>
     <summary>Gameplay</summary>
     <ul>
         <li>Attack & Dodge (MCO|DXP)</li>
         <li>Valhalla Combat</li>
-        <li>For Honor in Skyrim</li>
+        <li>Elden Rim + For Honor in Skyrim</li>
         <li>Vokriinator - Choice Cuts</li>
         <li>Experience and Missives</li>
         <li>Shadows of Skyrim</li>
@@ -97,11 +94,13 @@ Find the full list on <a href="#">Load Order Library.</a>
         <li>Rudy ENB for NAT III</li>
     </ul>
 </details>
+<p>Find the full list on <a href="#">Load Order Library.</a></p>
 
 # Installation Steps
 <ul>
-    <li>Verify the integrity of your Skyrim installation <a
-            href="https://help.steampowered.com/en/faqs/view/0C48-FCBD-DA71-93EB">https://help.steampowered.com/en/faqs/view/0C48-FCBD-DA71-93EB</a>.
+    <li>Verify the integrity of your Skyrim installation (<a
+            href="https://help.steampowered.com/en/faqs/view/0C48-FCBD-DA71-93EB">Steam support - Verify Integrity of
+            Game Files</a>).
     </li>
     <li>Download wabbajak.exe from the <a href="www.wabbajak.org">official Wabbajak site</a>.</li>
     <li>Download the latest Wabbajak .meta file for GMOH from the <a
@@ -118,7 +117,7 @@ Find the full list on <a href="#">Load Order Library.</a>
     <li>Move wabbajak.exe into the new folder.</li>
     <li>Run the executable and wait for it to update.</li>
     <li>Select "Install from Disk".</li>
-    <li>Here you will be asked to configure some file paths:
+    <li>Here, you will be asked to configure some file paths:
         <dl>
             <dt>"Target Modlist"</dt>
             <dd>The path to the .meta file you downloaded in the previous step.</dd>
@@ -138,27 +137,52 @@ Find the full list on <a href="#">Load Order Library.</a>
     </li>
     <li>
         Click the play button to start the download and installation process.
+        <ul>
+            <li>
+                Expect this process to take several hours to complete. The length of time is highly dependant on your
+                internet speed, internal storage speed and if you have a Nexus premium account.
+            </li>
+            <li>
+                If the process is interrupted for any reason, simply reopen Wabbajack and click the play button to pick
+                up where you left off.
+            </li>
+        </ul>
+    </li>
+    <li>
+        Once the installation is complete, you can open MO2 (modorganizer.exe) from your installation directory.
     </li>
 </ol>
+<h3>Additional Configuration (optional)</h3>
+<p>Look for the mmods under the "Your Preference" seperator in MO2 (near the bottom of the list).</p>
+<p><strong>Skyrim Upscaler</strong> - I recommend enabling this mod if you have a GPU that supports DLAA. Other
+    upscaling techniques do not currently work with the ENB plugin.</p>
+<p><strong>JS Unlock Everything</strong> - This mod allows you to skip all lockpicking minigames.</p>
 
 # Starting a New Game
 <ul>
+    <li>In MO2, make sure SKSE is the selected program and click "Run".</li>
     <li>Please unplug or power off your gamepad while playing. Leaving it on can lead to UI/gameplay issues.</li>
+</ul>
+<h3>The Realm of Lorkhan</h3>
+<ul>
     <li>After creating your character, you will find yourself in the realm of Lorkhan. If you would like, explore the
         area and
         find ways to further customize your character. You can always come back later.</li>
     <li>Interact with the purple shards to leave Lorkhan.</li>
 </ul>
-<h3>Shadow of Skyrim</h3>
+<h3>Shadow of Skyrim (optional)</h3>
 <p><a href="https://www.nexusmods.com/skyrimspecialedition/mods/65136">Shadow of Skyrim</a> can provide an alternative
     to player death in Skyrim. To use it, you will need to turn it on in the
     MCM. This can be done at any time.</p>
-<p>If you happen to stumble on another means of circumventing death (e.g. a perk, spell or item), you will need to
-    remember to deactivate the mod.</p>
+<p><em>If you happen to stumble on another means of circumventing death (e.g. a perk, spell or item), you will need to
+        remember to deactivate this mod.</em></p>
+<h3>Immersive Hunting Animations (optional)</h3>
+<p><a href="https://www.nexusmods.com/skyrimspecialedition/mods/96961">Immersive Hunting Animations</a> adds
+    (immersive) animations to the loot interactions on animals. The animations are off by default and will need to be
+    activated in the "Immersive Hunting" MCM.</p>
 
 # Controls
-Modded keybinds can be changed via the mod configuration menu (MCM) or INI file as indicated by the third column. Other
-keybinds can be changed in Skyrim's keybind menu.
+Modded keybinds can be changed via the mod configuration menu (MCM) or via an INI file.
 <table>
     <caption>
         <h3>Movement/Combat</h3>
@@ -166,7 +190,7 @@ keybinds can be changed in Skyrim's keybind menu.
     <tr>
         <th style="width:15em"></th>
         <th style="width:15em"></th>
-        <th style="width:25em">Configuration</th>
+        <th style="width:25em">Where to Configure (MCM or INI)</th>
     </tr>
     <tr>
         <td>Attack/Draw Weapon</td>
@@ -174,7 +198,7 @@ keybinds can be changed in Skyrim's keybind menu.
         <td></td>
     </tr>
     <tr>
-        <td>Block/Attack with Left</td>
+        <td>Block/Left Hand Spell</td>
         <td><kbd>RMB</kbd></td>
         <td></td>
     </tr>
@@ -200,7 +224,7 @@ keybinds can be changed in Skyrim's keybind menu.
     </tr>
     <tr>
         <td>Dodge</td>
-        <td><kbd>C</kbd> (double tap for a long dodge)</td>
+        <td><kbd>C</kbd> (double tap for a dodge roll)</td>
         <td>Dodge Framework (MCM)</td>
     </tr>
     <tr>
@@ -244,9 +268,9 @@ keybinds can be changed in Skyrim's keybind menu.
         <td>SmoothCam (MCM)</td>
     </tr>
     <tr>
-        <td>Health Potion</td>
+        <td>Use Health Potion</td>
         <td><kbd>X</kbd></td>
-        <td>Hotkey Potions (MCM)</td>
+        <td>Smart Optimal Salves (MCM)</td>
     </tr>
 </table>
 <div>
@@ -274,7 +298,7 @@ keybinds can be changed in Skyrim's keybind menu.
     <tr>
         <td>Dismount</td>
         <td><kbd>E</kbd> (Hold)</td>
-        <td>Simplest Horses (MCM)</td>
+        <td></td>
     </tr>
     <tr>
         <td>Wait/Follow</td>
@@ -289,7 +313,7 @@ keybinds can be changed in Skyrim's keybind menu.
     <tr>
         <td>Pet</td>
         <td><kbd>Shift + E</kbd></td>
-        <td>Dynamic Activation Key (MCM) to change the LShift modifier</td>
+        <td>Dynamic Activation Key (MCM)</td>
     </tr>
 </table>
 <table>
@@ -302,14 +326,34 @@ keybinds can be changed in Skyrim's keybind menu.
         <th style="width:25em">Configuration</th>
     </tr>
     <tr>
+        <td>Open Sleep/Wait Menu</td>
+        <td><kbd>T</kbd> while lying in a bed</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>Toggle UI On/Off</td>
+        <td><kbd>F2</kbd></td>
+        <td>Ultimate Immersion Toggle (MCM)</td>
+    </tr>
+    <tr>
         <td>Pet Dog</td>
         <td><kbd>Shift + E</kbd></td>
-        <td>Dynamic Activation Key (MCM) to change the LShift modifier</td>
+        <td></td>
     </tr>
     <tr>
         <td>Pickup Animal Carcass</td>
-        <td><kbd>Shift + R</kbd></td>
-        <td>Dynamic Activation Key (MCM) to change the LShift modifier</td>
+        <td><kbd>Shift + R</kbd> (requires activating Immersive Hunting Animations)</td>
+        <td>Dynamic Activation Key (MCM)</td>
+    </tr>
+    <tr>
+        <td>Peek Through a Door</td>
+        <td><kbd>Shift + E</kbd></td>
+        <td>Dynamic Activation Key (MCM)</td>
+    </tr>
+    <tr>
+        <td>Shield Position Swap</td>
+        <td><kbd>Shift + N</kbd></td>
+        <td>Simple Dual Sheath (INI)</td>
     </tr>
 </table>
 <table>
@@ -337,9 +381,9 @@ keybinds can be changed in Skyrim's keybind menu.
         <td>QUI (INI)</td>
     </tr>
     <tr>
-        <td>Activate Photo Mode</td>
+        <td>Open Open Animation Replacer (OAR) Menu</td>
         <td><kbd>Shift + O</kbd></td>
-        <td>Photo Mode (MCM)</td>
+        <td>Open Animation Replacer (INI)</td>
     </tr>
     <tr>
         <td>Open Immersive Equipment Displays (IED) Menu</td>
@@ -356,6 +400,16 @@ keybinds can be changed in Skyrim's keybind menu.
         <td><kbd>End</kbd></td>
         <td>Skyrim Upscaler (INI)</td>
     </tr>
+    <tr>
+        <td>Activate Photo Mode</td>
+        <td><kbd>Shift + U</kbd></td>
+        <td>Photo Mode (MCM)</td>
+    </tr>
+    <tr>
+        <td>OBody Manual Assignment</td>
+        <td><kbd>\</kbd></td>
+        <td>OBody NG (MCM)</td>
+    </tr>
 </table>
 <div>
     *Please see the <a href="https://www.nexusmods.com/skyrimspecialedition/mods/97345">Wheeler mod page</a> to learn
@@ -365,25 +419,36 @@ keybinds can be changed in Skyrim's keybind menu.
 # Known issues
 <a href="https://github.com/postk-dev/skyrim-gmoh/blob/main/Known-Issues.md">Here.</a>
 
-# Reporting a bug | CTD
+# Reporting a bug | CTDs
 <ul>
     <li>I will be unable to provide support if you have made modifications to any part of the list.</li>
-    <li>Please refer to known issues before reporting a bug.</li>
-    <li>Please report bugs on the Discord.</li>
-    <li>When reporting a crash to desktop (CTD), it must be reasonable to reproduce and include a log file. If the
-        report does
-        not meet this requirement, it will likely be ignored. Your crash logs can be found in the user folder
-        "Documents\My
-        Games\Skyrim Special Edition\SKSE". It should look like this: "crash-[datetime of crash].log". Please do not
-        copy paste
-        text from the log file into a report, just attach the file.</li>
+    <li>Please use the Discord to report bugs and view known issues/solutions.</li>
+    <li>A crash (CTD) report must:
+        <ol>
+            <li>Be reproducible.<br /><em>i.e. You can get the game to crash consistently in the same location or when
+                    taking
+                    certain actions.</em>
+            </li>
+            <li>Be reasonable to reproduce.</li>
+            <li>Include steps to reproduce.</li>
+            <li>Include a crash log file.<p><em>Your crash logs can be found in the
+                        user folder "Documents\My
+                        Games\Skyrim Special Edition\SKSE". The date and time of the crash will be indicated by the
+                        filename (e.g.
+                        "crash-[datetime of crash].log").</em></p>
+            </li>
+        </ol>
+        <p><strong>If the report does not meet this requirement, it will likely be ignored</strong>. Not because I want
+            to, but there will be very little I can do if I can't reproduce it on my end.</p>
+    </li>
 </ul>
 
-# Tips
+# Common Issues & Resolutions
+<h3>Keeping your Playthrough Alive</h3>
 <ul>
     <li>
-        Skyrim's engine has some <a href="https://www.youtube.com/watch?v=PJPzMAXSprU">known issues</a> with
-        reloading during play.
+        Skyrim's engine has <a href="https://www.youtube.com/watch?v=PJPzMAXSprU">issues</a> with
+        reloading a save during play.
         Consider relaunching the game instead of reloading a save. If you are dying alot, consider enabling Shadow of
         Skyrim.
     </li>
@@ -392,43 +457,60 @@ keybinds can be changed in Skyrim's keybind menu.
         corruption.
     </li>
 </ul>
-
-# FAQ
-
-<p><strong>Q: I lost my follower. How can I find them again?</strong></p>
-<p>A: If they are imported into Nether's follower framework, you should be able to teleport them to you from the
+<h3>Gameplay Issues</h3>
+<p><strong>How can I find lost followers?</strong></p>
+<p>If they are imported into Nether's follower framework, you should be able to teleport them to you from the
     Follower
     Framework MCM. If they are exempt from the framework (e.g. Serana or Lucien), they will typically have
     a
-    follower tracker quest or a spell to summon them to you. Failing that, lookup the NPC reference ID on UESP
-    (https://en.uesp.net/wiki/Skyrim:People) or use Google, open the game console -> "prid {referenceId}" -> "moveto
+    follower tracker quest or a spell to summon them to you. Failing that, lookup the NPC on UESP
+    (https://en.uesp.net/wiki/Skyrim:People) or use Google to find their reference ID. Then, open the game console ->
+    "prid {referenceId}" -> "moveto
     player". Keep in mind there are some quests/areas that deliberately seperate you from your followers.</p>
-<p><strong>Q: I can't seem to progress the main quest. Did something change?</strong></p>
-<p>A: At Your Own Pace (https://www.nexusmods.com/skyrimspecialedition/mods/52704) makes modifications to many of the
-    main
-    quest lines in Skyrim. Check the mod page for info on how you can progress. Failing that, ask in the Discord.</p>
-<p><strong>Q: Why is my stamina bar going up when I hit an enemy?</strong></p>
-<p>A: Have a look at the <a href="https://www.nexusmods.com/skyrimspecialedition/mods/64741">Valhalla Combat mod
+<p><strong>I am stuck and don't know how to progress a main story quest.</strong></p>
+<p>At Your Own Pace makes changes to many of the main
+    quest lines in Skyrim. Check the <a href="https://www.nexusmods.com/skyrimspecialedition/mods/52704">mod page</a>
+    for info on how you can progress. Failing that, ask in the Discord.</p>
+<p><strong>Why does my stamina bar go up when I hit an enemy?</strong></p>
+<p>See the <a href="https://www.nexusmods.com/skyrimspecialedition/mods/64741">Valhalla Combat mod
         page</a> to
-    see how
+    understand how
     the combat system has changed.</p>
-<p><strong>Q: Where are the screenshots I took in photo mode?</strong></p>
-<p>A: You can find the .png files in the stock game folder. There is also .dds texture files located in the overwrite
-    folder (located at the very bottom of the modlist in Mod Organizer).</p>
-<p><strong>
-        Q: How do I reload the original Immersive Equipment Display preset that came with the list?
-    </strong></p>
-<p>
-    A: Open IED (shift + F1) -> File tab (top left) -> Default Config -> Import.
+<p><strong>The loot (QuickLoot) menu isn't showing up.</strong>
 </p>
-<p><strong>
-        Q: The physics on this hair and/or outfit is acting strange. How do I fix it?
-    </strong></p>
-<p>
-    A: Open the console -> type "smp reset"
+<p>It should come back when you are out of combat. This can be configured in the QuickLootRE .toml file (..\Custom Mod
+    Config\SKSE\Plugins\QuickLootRE)</p>
+<p><strong>I am having a hard time with certain bosses.</strong></p>
+<p>Difficulty on some bosses comes from <a href="https://www.nexusmods.com/skyrimspecialedition/mods/18183">Real
+        Bosses - Light</a>. There are some tips on the mod page for harder encounters.</p>
+<p><strong>My character covered in dirt/blood/grime.</strong></p>
+<p>Go for a swim, take a bath or hope for some rain to wash it off.</p>
+<p><strong>How do I reload the original Immersive Equipment Display preset that came with the list?</strong></p>
+<p>Open IED (<kbd>Shift + F1</kbd>) -> File tab (top left) -> Default Config -> Import -> Overwrite everything.</p>
+<p><strong>Where are the screenshots I took in photo mode?</strong></p>
+<p>"My Documents/My Games/Skyrim Special Edition/Photos"</p>
+<p><strong>How do I fix SMP issues (clipping outfit/hair)?</strong></p>
+<p>Open the console -> type "smp reset". Going through a load screen should also reset it.</p>
+<h3>Technical Issues</h3>
+<p><strong>Can anything be done to improve my framerate?</strong></p>
+<p>Removing NAT III, Rudy ENB for NAT III and any of their dependencies should substantially improve your framerate.
+    <em>Keep in mind that doing so will void any support I can provide</em>.
 </p>
-<p><strong>Q: Wtf is GMOH?
-    </strong></p>
-<p>
-    A: Giga modlist (of hell).
-</p>
+<p>If you are looking for a performance friendly replacement, I recommend Azurite Weathers and PI-CHO ENB.</p>
+
+<p><strong>What do I do if my game crashes (CTD) or I encounter a bug?</strong></p>
+<p>Please see <a href="#reporting-a-bug--ctd">reporting a bug/CTD</a>.</p>
+<p><strong>SSEEdit/Synthesis/Nemesis/Dyndolod/TexGen crashing or won't finish processing.</strong></p>
+<p>Try each of the
+    following:</p>
+<ol>
+    <li>Restart Mod Organizer.</li>
+    <li>Restart your PC.</li>
+    <li>(You may need Google's help here...) Temporarily disable your anti-virus software and Windows real-time threat
+        protection. If that resolves the issue,
+        consider adding an exception for the executable.</li>
+</ol>
+<p><strong>Creation Kit is crashing/MO2 VFS is slow to start.</strong></p>
+<p>There are too many mods in the list. Use the MO2 profile feature to load just the mods you are working on.</p>
+<p><strong>SSEEdit says that it is out of memory.</strong></p>
+<p>Try using the 64 bit executable (sseedit64). There is a shortcut located on the toolbar in MO2.</p>

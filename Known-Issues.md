@@ -51,3 +51,5 @@ These crashes happen occasionally and I don't believe they can be reliably repro
 Issue: There are spell and perks that are incompatible with Experience (i.e. a perk that gives +10% experience with one-handed weapons)
 
 If possible, avoid these spells/perks for now. I have not decided what to do with them yet.
+
+Issue: Better Vampire's night eye not working correctly
